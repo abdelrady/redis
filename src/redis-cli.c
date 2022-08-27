@@ -8853,7 +8853,6 @@ static void intrinsicLatencyMode(void) {
         latency = end-start;
         runs++;
         if (latency <= 0) continue;
-
         head = append(head, latency, end);
         // printf("latency: %lld microseconds at %lld \n", latency, end);
         /* Reporting */
